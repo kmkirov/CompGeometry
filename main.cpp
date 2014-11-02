@@ -82,7 +82,7 @@ vector<vec2d<>> vuje_algoritum(vector<vec2d<>> & points)
 		}
 
 		point_obvivka = kandidat;		
-		if(( fabs(point_obvivka.x - points[0].x) <= 0.01) && ( fabs(point_obvivka.y - points[0].y )<=0.01))
+		if(( fabs(point_obvivka.x - obvivka[0].x) <= 0.01) && ( fabs(point_obvivka.y - obvivka[0].y )<=0.01))
 			break; //ne raboti :)
 	}
 	return obvivka;
